@@ -29,7 +29,7 @@ function MenuIcon() {
           active ? "bg-gray-400 text-primary" : "bg-transparent"
         } hover:bg-gray-400`}
       >
-        <img src='Vector.png' alt='menu icon' />
+        <img src='vector.svg' alt='menu icon' />
       </span>
       {active && <Dropdown setActive={setActive} />}
     </div>
