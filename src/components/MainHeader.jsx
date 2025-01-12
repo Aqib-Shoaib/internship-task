@@ -8,7 +8,7 @@ function MainHeader() {
 
       <div className='flex items-center gap-5'>
         {/* search bar */}
-        <div className='flex shadow-md bg-white px-2 py-1 items-center rounded-md gap-2 w-72'>
+        <div className='flex shadow-md bg-white px-2 py-1 items-center rounded-md gap-2 w-80'>
           <img src='header/search2.png' alt='search icon number two' />
           <input
             className='bg-transparent w-full outline-none text-tertiary capitalize'

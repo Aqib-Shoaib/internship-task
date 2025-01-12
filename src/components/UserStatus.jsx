@@ -2,7 +2,7 @@
 function UserStatus({ user }) {
   return (
     <span
-      className='col-span-1 capitalize text-center rounded-xl mr-2 font-inter font-medium'
+      className='col-span-1 capitalize text-center text-sm rounded-xl mr-2 font-inter font-medium'
       style={{
         color: user.active ? "#027A48" : "#B42318",
         backgroundColor: user.active
